@@ -11,4 +11,7 @@ class Cat
       (@meal_time - 12).to_s + " PM"
     end
   end
+  def meow
+    "My name is #{@name} I eat #{@food} at #{eats_at}"
+  end
 end
